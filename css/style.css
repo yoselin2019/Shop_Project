@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?/family=wght@300;400;500;600;700display=swap');*/
 :root{
-    --primary-color: #3f97f0;
+    --primary-color: #2a88e7;
     --background-color: #f9f5f0;
     --dark-color: #151515;
 
@@ -734,7 +734,7 @@ html{
 	color: #eee;
 }
 
-.content button {
+.content .button-style {
 	border: none;
 	background-color: #000;
 	color: #fff;
@@ -745,9 +745,10 @@ html{
 	font-family: inherit;
 	cursor: pointer;
 	font-weight: 600;
+    text-decoration: none;
 }
 
-.content button:hover {
+.content .button-style:hover {
 	background-color: var(--background-color);
 	color: var(--primary-color);
 }

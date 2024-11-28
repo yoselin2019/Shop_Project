@@ -16,8 +16,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 h1{
     text-align: center;
@@ -40,7 +38,7 @@ form .grupo{
 
 input, textarea{
     background: none;
-    color: #c6c6c6;
+    color: #c6c6c6; 
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
@@ -103,11 +101,12 @@ button{
     width: 100px;
     height: 40px;
     border: none;
-    color: #fff;
+    background-color: #fff;
     border-radius: 4px;
     font-size: 16px;
     margin: 10px auto;
     cursor: pointer;
+    text-decoration: none;
 }
 
 @media  screen and (max-width: 1100px)
@@ -136,18 +135,4 @@ button{
         width: 90%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

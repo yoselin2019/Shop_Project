@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog de jocs</title>
-    <link rel="stylesheet" href="css/catalog.css">
+    <title>Counter Strike 2</title>
+    <link rel="stylesheet" href="../css/products.css">
     <link rel="icon" href="img/logo.png" type="image/png">
 </head>
 <body>
@@ -38,13 +38,10 @@
             <nav class="navbar container">
                 <i class="fa-solid fa-bars"></i>
                 <ul class="menu">
-                    <li><a href="catalog.html">Catalog</a></li>
-                    <li><a href="products/product1.html">Elden Ring</a></li>
-                    <li><a href="products/product2.html">Counter Strike 2</a></li>
-                    <li><a href="products/product3.html">GTA V</a></li>
-                    <li><a href="products/product4.html">Fallout 4</a></li>
-                    <li><a href="products/product5.html">SKYRIM</a></li>
-                    <li><a href="products/product6.html">Hollow Knight</a></li>
+                    <li><a href="../index.html">Inici</a></li>
+                    <li><a href="../catalog.html">Catalog</a></li>
+                    <li><a href="../contact.html">Contecte</a></li>
+
                 </ul>
                 <form class="searh-form">
                     <input type="search" placeholder="Buscar..." />
@@ -56,81 +53,36 @@
 
         </div>
 </header>
+
+
     <main>
-        <section class="catalogo">
-            <!-- ELDEN RING -->
-            <div class="product-card">
-                <img src="img/product1/eldenring1.png" alt="Portada de Elden Ring" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">Elden Ring</h3>
-                    <span class="price-original">59.99€</span>
-                    <span class="price-discount">35.99€</span>
-                    <button><a href="products/product1.html">Comprar</a></button>
+        <div class="product-container">
+            <div class="product-images">
+                <!-- Imagen principal -->
+                <img id="main-image" src="../img/product2/juegoCounterStrike.png" alt="Imagen principal del producto" class="main-image">
+                <div class="thumbnails">
+                    <!-- Miniaturas de imágenes -->
+                    <img src="../img/product2/cs1.png" alt="Imagen 2" class="thumbnail">
+                    <img src="../img/product2/cs2.png" alt="Imagen 3" class="thumbnail">
+                    <img src="../img/product2/cs3.png" alt="Imagen 4" class="thumbnail">
                 </div>
-                
             </div>
 
-            <!-- COUNTER STRIKE 2 -->
-            <div class="product-card">
-                <img src="img/product2/juegoCounterStrike.png" alt="Portada de Counter Strike 2" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">Counter Strike 2</h3>
-                    <span class="price-original">14.29€</span>
-                    <span class="price-discount">9.99€</span>
-                    <button><a href="products/product2.html">Comprar</a></button>
-                </div>
-                
-            </div>
+            <div class="product-details">
+                <h1>Counter Strike 2</h1>
+                <p class="product-description">Durant les dues darreres dècades, Counter-Strike ha proporcionat una experiència competitiva de primer nivell per als milions de jugadors de tot el món que van contribuir a donar-li forma. Ara el proper capítol a la història de CS està a punt de començar. Parlem de Counter-Strike 2.</p>
 
-            <!-- Grand Theft Auto V -->
-            <div class="product-card">
-                <img src="img/product3/juegoGrandTheftAuto.png" alt="Portada de GTA V" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">Grand Theft Auto V</h3>
-                    <span class="price-original">39.99€</span>
-                    <span class="price-discount">14.98€</span>
-                    <button><a href="products/product3.html">Comprar</a></button>
+                <div class="price">
+                    <span class="old-price">14,29€</span>
+                    <span class="new-price">9.99€</span>
+                    <span class="discount">-30%</span>
                 </div>
-                
-            </div>
 
-            <!-- Fallout 4 -->
-            <div class="product-card">
-                <img src="img/product4/juegoFallout.png" alt="Portada de Fallout 4" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">Fallout 4</h3>
-                    <span class="price-original">19.99€</span>
-                    <span class="price-discount">4.99€</span>
-                    <button><a href="products/product4.html">Comprar</a></button>
-                </div>
-             
+                <button class="buy-button">Comprar ara</button>
             </div>
-
-            <!-- SKYRIM -->
-            <div class="product-card">
-                <img src="img/product5/juegoTheElderSkyrim.png" alt="Portada de Skyrim" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">The Elder Scrolls V: Skyrim</h3>
-                    <span class="price-original">39.99€</span>
-                    <span class="price-discount">14.99€</span>
-                    <button><a href="products/product5.html">Comprar</a></button>
-                </div>
-                
-            </div>
-
-            <!-- HOLLOW KNIGHT -->
-            <div class="product-card">
-                <img src="img/product6/juegoHollowKnight.png" alt="Portada de Hollow Knight" class="product-image">
-                <div class="product-description">
-                    <h3 class="product-title">Hollow Knight</h3>
-                    <span class="price-original">14.79€</span>
-                    <span class="price-discount">5.99€</span>
-                    <button><a href="products/product6.html">Comprar</a></button>
-                </div>
-                
-            </div>
-        </section>
+        </div>
     </main>
+
     <footer class="footer">
         <div class="container container-footer">
             <div class="menu-footer">
